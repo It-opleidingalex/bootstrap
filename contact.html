@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+crossorigin="anonymous">
+<title>Contact.</title>
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-fluid m-0 p-4">
+<h2>Contact.</h2>
+<div class="text-right">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="overmij.html">Over mij</a></li>
+<li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<body>
+    <article class="text-lg-start text-white p-4">
+        <h2 class="mb-3">Contactformulier</h2>
+        <p>Heeft u vragen of opmerkingen voor mij, neem dan via het onderstaande formulier contact met mij op.</p>
+        <form class="mt-5" 
+        id="contact-form" 
+        name="contact-form" 
+        action="https://formspree.io/f/xrgwpzyo" 
+        method="POST">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="naam" name="Naam" class="form-control">
+                        <label for="naam" class="">Uw naam</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="e-mail" id="e-mail" name="E-mail" class="form-control">
+                        <label for="e-mail" class="">Uw e-mailadres</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                        <textarea id="bericht" name="bericht" rows="5" class="form-control md-textarea"></textarea>
+                        <label for="bericht">Uw bericht</label>
+                    </div>
+                </div>
+            </div>
+        <div class="text-end mb-5">
+            <button class="btn btn-primary" type="submit">Verstuur</button>
+        </div> 
+    </article>
+</form>
+
+    
+
+</body>
+<footer style="display: flex; min-height: 200px;
+background-color:rrgb(54, 54, 54); 
+margin-top: 40px;">Copyright AS 2023</footer>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+crossorigin="anonymous">
+</script>
+</html>
